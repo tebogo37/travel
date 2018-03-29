@@ -8,6 +8,11 @@ text-align: center;
 &__icon {
   margin-right: .5rem;
 }
+
+&--blue {
+  color: $mainBlue;
+}
+
 strong {
   font-weight: 500;
 }
