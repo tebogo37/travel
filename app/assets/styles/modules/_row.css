@@ -17,7 +17,12 @@
 					}
 
 					&--medium4--bmargin-until-medium {
-						margin-bottom : 1rem; 
+						margin-bottom : 1rem;
+					}
+
+					&__medium6 {
+						float :left;
+						width : 50%;
 					}
 
 
@@ -37,5 +42,13 @@
 
 	&--gutters > div {
 		padding-right : 65px;
+	}
+
+	&__gutters-large {
+		padding-right:-100px;
+	}
+
+	&__gutters-large > div {
+		padding-right: 100px;
 	}
 }
